@@ -1,0 +1,6 @@
+.specials {
+	height: 230px;
+
+	background: #242424;
+	
+}

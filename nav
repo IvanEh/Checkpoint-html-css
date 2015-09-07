@@ -1,0 +1,5 @@
+.nav {
+	height: 90px;
+
+	background: #2e2e2e;
+}

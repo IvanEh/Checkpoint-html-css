@@ -1,0 +1,27 @@
+.footer {
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+
+	height: 90px;
+	/*padding-right: 3px;*/
+	background: #2e2e2e;
+}
+
+.copyright {
+	float: left;
+	
+
+	color: #7d7d7d;
+}
+
+.navig {
+	float: right;
+
+	color: #7d7d7d;
+	/*border: 1px dotted green;*/
+}
+
+.navig a:hover {
+	color: #ffffff;
+}

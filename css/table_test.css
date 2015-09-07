@@ -1,0 +1,40 @@
+.table {
+	display: inline-table;
+	height: 50px;
+	border: 1px solid grey;
+}
+
+.cell {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.curved-border1 {
+	display: inline-block;
+	background: #57c5a0;
+	border-radius: 5px;
+	padding: 1px 3px;
+
+	color: white;
+}
+
+.cart {
+	display: inline;
+	padding: 0px 15px 0px 0px;
+}
+
+.inline-test {
+	width: 400px;
+	height: 100px;
+	border: 1px solid grey;
+}
+
+.left {
+	display: inline-block;
+	text-align: left;
+}
+
+.right {
+	display: inline-block;
+	text-align: right;
+}

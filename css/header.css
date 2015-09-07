@@ -1,0 +1,66 @@
+header {
+	height:  45px;
+	background: #242424;
+	border: 1px solid transparent ;
+	min-width: 600px;
+}
+
+header > .positioner {
+	margin: 0px auto;
+	/*border: 1px solid green ;*/
+}
+
+header .text-logo {
+	float: left;
+	
+	font-family: serif; /* TODO */
+	
+	font-size: 25pt;
+	color: #57c5a0;
+	padding-top:3px; 
+}
+
+header .right-side {
+	float: right;
+	height: 100%;
+}
+
+header .register {
+	transition: all 0.5s;
+	float: right;
+	height: 100%;
+	padding:0px 10px;	
+
+
+	border-width: 0px 1px 0px 1px; /* TODO */
+	border-style: solid;
+	border-color: grey;
+	color: grey; /* TODO */
+}
+
+header .register:hover {
+	background: #363636;
+}
+
+header .register:before
+{
+  content: "";
+  display: inline-block;
+  min-height: inherit;
+  height: 100%;
+  vertical-align: middle;
+}
+
+header .search-icon {
+	float: right;
+	height: 100%;
+	margin-right: 20px;
+}
+
+header .search-icon:before {
+	content: "";
+	display: inline-block;
+	min-height: inherit;
+	height: 100%;
+	vertical-align: middle;
+}

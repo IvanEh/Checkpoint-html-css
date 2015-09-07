@@ -1,0 +1,83 @@
+.board {
+	/*background: #edece7;*/
+	height: 460px;
+
+	background: url("../img/bg_legs.png");
+}
+
+
+.board .left-column 
+{
+	float: left;
+	display: inline-block;
+	width:50%;
+	height: 100%;
+	
+}
+
+.board .left-column  img
+{	
+	position: relative;
+	left: -50px;
+	height: 460px;
+	width: auto;
+	display: inline-block;
+}
+
+.board .right-column {
+	box-sizing: border-box; 
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	display: inline-table;
+	float: right;
+	width: 50%;
+	height: 100%;
+	padding-left: 15px;
+	padding-right: 10px; 
+
+}
+
+.offer {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.big-price-block {
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	width: 70px;
+	height: 70px;
+	padding-left: 6px; 
+
+	color: white;
+	font-size: 12pt;
+	font-weight: bold;
+	background: #57c5a0;
+}
+
+.inline-centered {
+	display: inline-block;
+
+}
+
+.offer > h1 {
+	margin: 10px 0px;
+	font-family: "Times New Roman";
+	font-size: 40pt;
+	line-height: 0.85;
+}
+
+.right-column > .offer > .description {
+	display: inline-block;
+	line-height: 25px;
+	font-size: 20pt;
+	margin-bottom: 10px;
+	color: #b3b2af;
+}
+
+.right-column > .offer > .buttons{
+	display: inline-block;
+}
+
+

@@ -1,0 +1,167 @@
+.prefooter {
+	background: #242424;
+	margin: -1px;
+	padding: 1px;
+
+	padding-bottom: 50px;
+}
+
+.prefooter .positioner {
+	margin-top: 25px;
+}
+
+.text-widget-table {
+	display: relative;
+	float: left;
+	height: 220px;
+	width: 30%;
+	margin-right: 10px;
+	/*border: 1px dotted red;*/
+}
+
+.text-widget-table .text-widget-cell {
+	position: relative;
+}
+
+.text-widget-table .text-widget-cell .title {
+	position: absolute;
+	color: #7d7d7d;
+	top: 10px;
+	font-weight: bold;
+	/*border: 1px dotted red;*/
+}
+
+.text-widget-table .text-widget-cell .content {
+	color: #909090;
+
+}
+
+
+.twitter-widget-table {
+	position: relative;
+	float: left;
+	height: 220px;
+	width: 30%;	
+
+	/*border: 1px dotted red;*/
+}
+
+.twitter-widget-cell .title {
+	position: absolute;
+	top: 10px;
+
+	color: #7d7d7d;
+	font-weight: bold;
+
+	/*border: 1px dotted red;*/
+}
+
+.twitter-message {
+	color: #909090;
+	margin-bottom: 5px;
+}
+
+.twitter-message:last-child {
+	margin-bottom: 0px;
+}
+
+.twitter-member {
+	color: #57c5a0;
+	font-weight: bold;
+}
+
+.twitter-member:hover {
+	text-decoration: underline;
+}
+
+.twitter-time {
+	font-style: italic;
+	color: white;
+}
+
+
+
+.flickr-widget-table {
+	display: relative;
+	float: left;
+	height: 220px;
+	width: 34%;
+	margin-right: 30px;
+	/*border: 1px dotted red;*/
+}
+
+.flickr-widget-table .flickr-widget-cell {
+	position: relative;
+	padding-left: 10px;
+}
+
+.flickr-widget-table .flickr-widget-cell .title {
+	position: absolute;
+	color: #7d7d7d;
+	top: 10px;
+	left: 10px;
+	font-weight: bold;
+	/*border: 1px dotted red;*/
+}
+
+.flickr-widget-table .flickr-widget-cell .flickr-image {
+	display: inline-block;
+	margin-right: 5px;
+}
+
+.flickr-widget-table .flickr-widget-cell .flickr-image:last-child {
+	display: inline-block;
+	margin-right: 0px;
+}
+
+
+.prefooter form {
+	/*border: 1px dotted red;*/
+	display: inline;
+	font-size: 0;
+}
+
+#email {
+	position: relative;
+	float: left;
+	transition:all 0.3s;
+	width: 25%;
+	height: 40px;
+
+	background: #2e2e2e;
+	border: none;
+	color: #747474;
+}
+
+#email:focus {
+	background: #404040;
+	font-weight: bold;
+}
+
+#newsletter-submit {
+	position: relative;
+	width: 5%;
+	height: 40px;
+
+	background: #7d7d7d;
+	border: none;
+	font-size: 14pt;
+	color: #2e2e2e;
+	font-weight: bold;
+}
+
+#newsletter-submit:hover, #newsletter-submit:focus {
+	background: #a6a6a6;
+}
+
+.social-buttons  {
+	position: relative;
+	float: right;
+	/*border: 1px dotted green;*/
+}
+
+
+.social-buttons a:hover img{
+	position: relative;
+	top: -10px;
+}

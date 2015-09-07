@@ -1,0 +1,94 @@
+.menu {
+	background: #fffff;
+	height: 60px;
+}
+
+.menu  .positioner {
+	margin: 0px auto;
+
+}
+
+.menu .positioner:after 
+{
+	content: '';
+	display: table;
+	clear: both;
+}
+
+.menu .menu-buttons {
+	float: left;
+	height: 100%;
+}
+
+.menu .menu-buttons .menu-item {
+	float: left;
+	height: 100%;
+	padding: 0px 15px;
+
+
+	text-decoration: none;
+	color: #c8c8c8;
+	font-size: 21pt;
+	border-right: 1px solid #eeeeee;
+}
+
+.menu .menu-buttons .menu-item:first-child{
+	border-left: 1px solid #eeeeee;
+}
+
+.menu .menu-buttons .menu-item:hover {
+	transition: 0.5s;
+
+	background: #fbfbfb;
+}
+
+.menu  .right-menu {
+	/*float: right;*/
+	display: inline-table;
+	height: 100%;
+}
+
+.right-menu > .menu-item {
+	/*float: right;*/
+	display: table-cell;
+	vertical-align: middle;
+	padding: 0px 15px;
+
+	text-decoration: none;
+	color: #c8c8c8;
+	font-size: 15pt;
+	font-weight: bold;
+	border-width:0px 1px 0px 1px;
+	border-color: #eeeeee;
+	border-style: solid;
+
+}
+
+.right-menu > .menu-item:last-child {
+	border-width:0px 1px 0px 0px;
+}
+
+.curved-border1 {
+	display: inline-block;
+	background: #57c5a0;
+	border-radius: 5px;
+	padding: 1px 3px;
+
+	color: white;
+}
+
+.curved-border2 {
+	display: inline-block;
+	background: #adadad;
+	border-radius: 5px;
+	padding: 1px 3px;
+
+	color: white;
+}
+
+
+
+.right-menu .cart {
+	display: inline;
+	margin-right: 3px;
+}

@@ -1,0 +1,132 @@
+.nav {
+	height: 90px;
+	padding-top: 1px;
+
+	background: #2e2e2e;
+}
+
+.pos-bar {
+	height: 10px;
+	margin-top: 4px;
+	background: black;
+}
+
+.nav-item {
+
+}
+
+ .nav input {
+	display: none;
+}
+
+.nav .table {
+	position: relative;  /*delete me*/
+	width: 100%;
+	height: 75%;
+	border-spacing: 10px 0px;
+
+	border: 1px dotted transparent;
+}
+
+.nav .cell-centered {
+	width: 20%;
+}
+
+.nav input + label {
+	position: relative;
+	text-align: center;
+}
+
+.nav input:checked + label {
+	
+}
+
+.nav-item-title {
+	display: inline-block;
+
+	color: #adadad;
+	font-weight: bold;
+	font-size: 18pt;
+}
+
+.nav input:checked + label .nav-item-title {
+	color: white;
+}
+
+
+.nav input:hover + label .nav-item-title {
+	color: white;
+}
+
+.nav label:hover .nav-item-title {
+	color: white;
+}
+
+.nav input:hover + label .nav-item-caption {
+	color: white;
+}
+
+
+.nav-item-caption {
+	display: inline-block;
+
+	color:  #adadad;
+	font-size: 12pt;
+}
+
+.nav input + label .wall {
+	position: absolute;
+	display: block;
+
+	width: 3px;
+	height: 6px;
+	top: -9px;
+	left: 102%;
+/**/
+	background: #2e2e2e;
+}
+
+.nav input ~ .active-bar {
+	position: absolute;
+	display: block;
+
+	height: 6px;
+	width: 18%;
+	top: -8px;
+	left: 0 ;
+
+	background: #57c5a0;
+
+	transition: 0.3s linear ;
+	-moz-transition: 0.3s linear ;
+	-webkit-transition: 0.3s linear ;
+}
+
+/*#nav1:checked ~ .active-bar {
+	left: 10px ;
+}*/
+
+.nav .table input:nth-of-type(1):checked ~ .active-bar {
+	left: 1.7%;
+}
+
+.nav .table input:nth-of-type(2):checked ~ .active-bar {
+	left: 20.5%;
+}
+
+.nav .table input:nth-of-type(3):checked ~ .active-bar {
+	left: 40%;
+}
+
+.nav .table input:nth-of-type(4):checked ~ .active-bar {
+	left: 59.5%;
+}
+
+.nav .table input:nth-of-type(5):checked ~ .active-bar {
+	left: 79%;
+}
+
+/*#nav2:checked ~ .active-bar {
+	left: 20px ;
+}*/
+

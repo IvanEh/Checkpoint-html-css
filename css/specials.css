@@ -1,0 +1,55 @@
+.specials {
+	height: 230px;
+
+	background: #242424;	
+}
+
+.specials .table {
+	border-collapse: separate;
+	width: 100%;
+	border-spacing: 20px 25px;
+	text-align: center;
+
+}
+
+.specials .offer {
+	/*border: 1px dotted red;*/
+	margin: 10px;
+}
+
+.specials .offer1 {
+	background: url("../img/forsale.png");
+	width: 33%;
+}
+
+.specials .offer2 {
+	background: url("../img/special.png");
+	width: 33%;
+}
+
+.specials .offer3 {
+	background: url("../img/musthave.png");
+	width: 33%;
+}
+
+.specials .offer  .offer-cool-caption {
+	display: inline-block;
+	box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	padding: 20px 20px ;
+
+	background: rgba(51, 51, 51, 0.8);
+	color: white;
+	font-size: 25pt;
+	font-family: "Corbel", "Tahoma";
+}
+
+.specials .offer  .offer-cool-caption:hover {
+	-moz-transition: 0.7s;
+	-webkit-transition: 0.7s;
+	transition: 0.7s;
+	background: rgba(51, 51, 51, 0.96);
+	width: 100%;
+}
+
